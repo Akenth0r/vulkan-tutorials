@@ -1,0 +1,9 @@
+[submodule "Vulkan-Hpp"]
+	path = Vulkan-Hpp
+	url = https://github.com/KhronosGroup/Vulkan-Hpp
+[submodule "glfw"]
+	path = glfw
+	url = https://github.com/glfw/glfw
+[submodule "glm"]
+	path = glm
+	url = https://github.com/g-truc/glm
