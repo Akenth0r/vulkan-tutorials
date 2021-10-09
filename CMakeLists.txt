@@ -6,7 +6,7 @@ enable_testing()
 
 file(GLOB SOURCES
     src/*.hpp
-    src/*.cpp    
+    src/*.cpp
 )
 
 find_package(Vulkan REQUIRED FATAL_ERROR)
