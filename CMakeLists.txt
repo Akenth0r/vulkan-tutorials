@@ -5,7 +5,7 @@ include(CTest)
 enable_testing()
 
 file(GLOB SOURCES
-    src/include/*.hpp
+    src/*.hpp
     src/*.cpp    
 )
 
