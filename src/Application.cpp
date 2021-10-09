@@ -118,8 +118,8 @@ bool Application::checkValidationLayerSupport()
 
 void Application::cleanup() 
 {
-    vkDestroyInstance(this->instance, nullptr);
     vkDestroyDebugUtilsMessengerEXT(this->instance, this->debugMessenger, nullptr);
+    vkDestroyInstance(this->instance, nullptr);
     glfwDestroyWindow(this->window);
     glfwTerminate();
 }
